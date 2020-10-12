@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduction - Web Resume</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    
+    <script>
+        function pageRedirect() {
+          window.location.href = "education.html";
+        }      
+    </script> 
 </head>
-
 <body>
     <div class="navigation" id="nav">
         <a class="menu-elem active" href="index.html">Introduction</a>
@@ -15,10 +18,29 @@
         <a class="menu-elem" href="skills.html">Skills</a>
         <a class="menu-elem" href="contact.html">Contact</a>
 
+        <div class="navigation-text">CentAlfaro</div>
+    </div>
+
+    <div class="profile-container">
         <div class="container"><img src="../img/profile2.jpg"></div>
-        <div class="text">Boku no Resume</div>
+        <div class="intro-header">HI, I AM VINCENT ALFARO</div>
+    </div>
+
+    <div class="aboutme-contain">
+        <div class="aboutme-header">ABOUT ME</div>
+        
+        <div class="aboutme-message">
+            I'm currently enrolled as a student of Bachelors Degree in Science Major in 
+            Entertainment and Multimedia Computing in CIIT College of Arts 
+            and Technology. I chose this course because I want to be a Game 
+            Programmer in the future. I'm an optimistic person who believes 
+            that I can overcome any obstacles I encounter. I am a fast learner, 
+            adaptable, and flexible to new environments. I’m also taught to 
+            practice punctuality in everything that I do or go to so that I 
+            wouldn’t be in a hurry anytime. 
+            
+        </div>
+        
+        <input class="next-page" type="button" name="NextEduc" value=">" onclick="pageRedirect()"> 
     </div>
 </body>
-
-<script>
-</script> 

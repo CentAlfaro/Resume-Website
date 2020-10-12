@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skills - Web Resume</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    
+    <script>
+        function pageRedirect() {
+          window.location.href = "contact.html";
+        }   
+    </script>
 </head>
-
 <body>
     <div class="navigation" id="nav">
         <a class="menu-elem" href="index.html">Introduction</a>
@@ -15,10 +18,76 @@
         <a class="menu-elem active" href="skills.html">Skills</a>
         <a class="menu-elem" href="contact.html">Contact</a>
 
-        <div class="container"><img src="../img/profile2.jpg"></div>
-        <div class="text">Boku no Resume</div>
+        <div class="navigation-text">CentAlfaro</div>
+    </div>
+
+    <div class="skills-contain">
+        <div class="skills-header">MY SAMPLE PROJECTS</div>
+
+        <div class="project-samples">
+            <div class="project-title">BOOK BORROWING SYSTEM</div>
+
+            <div class="picture-row">
+                <div class="project-picture"><img src="../img/cplus.PNG"></div>
+                <div class="project-picture" ><img src="../img/cplus2.PNG " style="height: 223.5px;"></div>
+            </div>
+            
+            <div class="project-details">
+                A design program made in C++ simulating a book borrowing system of a school
+            </div>
+        </div>
+
+        <div class="project-samples">
+            <div class="project-title">VIDEO GAME STORE SYSTEM</div>
+
+            <div class="picture-row">
+                <div class="project-picture"><img src="../img/csharp.PNG"></div>
+                <div class="project-picture"><img src="../img/csharp2.PNG"></div>
+            </div>
+
+            <div class="project-details">
+                A design program made in C# simulating an online video game store
+            </div>
+        </div>
+
+        <div class="project-samples">
+            <div class="project-title">BINGO GAME</div>
+
+            <div class="picture-row">
+                <div class="project-picture"><img src="../img/bingo.PNG"></div>
+            </div>
+
+            <div class="project-details">
+                A BINGO game simulator created with Java
+            </div>
+        </div>
+
+        <div class="project-samples">
+            <div class="project-title">RECLIP APP DESIGN</div>
+
+            <div class="picture-row">
+                <div class="project-picture"><img src="../img/figma.jpg"></div>
+            </div>
+
+            <div class="project-details">
+               A design created with Figma App Designer for a Multimedia Marketing Platform named RECLIP
+            </div>
+        </div>
+
+        <div class="project-samples">
+            <div class="project-title">KNIGHT ERRANT</div>
+
+            <div class="picture-row">
+                <div class="project-picture" style="max-width: 500px;"><img src="../img/unity1.PNG"></div>
+                <div class="project-picture" style="max-width: 500px;"><img src="../img/unity2.PNG"></div>
+            </div>
+            
+            <div class="project-details">
+                A 2D Platformer Video Game created with Unity Development
+            </div>
+        </div>
+        <input class="next-page" type="button" name="NextEduc" value=">" onclick="pageRedirect()">
     </div>
 </body>
 
-<script>
-</script> 
+ 

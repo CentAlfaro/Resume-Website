@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Education - Web Resume</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    
+    <script>
+        function pageRedirect() {
+          window.location.href = "skills.html";
+        }    
+    </script> 
 </head>
-
 <body>
     <div class="navigation" id="nav">
         <a class="menu-elem" href="index.html">Introduction</a>
@@ -15,10 +18,32 @@
         <a class="menu-elem" href="skills.html">Skills</a>
         <a class="menu-elem" href="contact.html">Contact</a>
 
-        <div class="container"><img src="../img/profile2.jpg"></div>
-        <div class="text">Boku no Resume</div>
+        <div class="navigation-text">CentAlfaro</div>
+    </div>
+
+    <div class="education-contain">
+        <div class="education-header">WHERE I GRADUATED</div>
+
+        <div class="education-school">
+            <div class="education-logo"><img src="../img/bscs_logo.png"></div>
+            <div class="education-details">
+                <div class="school-name">Blessed Sacrament Catholic School</div>
+                <div class="school-year">2008 – 2018</div>
+                - Consistent “With Honors” awards since 1st Grade – 10th Grade.<br/>
+                - Various subject awards<br/>
+            </div>
+        </div>
+
+        <div class="education-school">
+            <div class="education-logo2"><img src="../img/ciit_logo.png"></div>
+            <div class="education-details">
+                <div class="school-name">CIIT College of Arts and Technology</div>
+                <div class="school-year">2018 - 2020</div>
+                - CIIT Values Awardee - Grade 11<br/>
+                - With Honors Rank 9 - Grade 12<br/>
+            </div>
+        </div>
+        <input class="next-page" type="button" name="NextEduc" value=">" onclick="pageRedirect()">
     </div>
 </body>
 
-<script>
-</script> 

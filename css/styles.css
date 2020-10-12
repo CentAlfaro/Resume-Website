@@ -1,20 +1,25 @@
 /* Color Palettes
     #0b0c10
+    #11151b
     #1f2833
     #c5c6c7
     #66fcf1
-    #45a29e */
+    #45a29e
+     */
 
 body  
 {  
-    background-color: #0b0c10;
+    background-color: black;
     font-family: 'Arial';  
     height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }  
 
 .navigation {
-    width: 98.9%;
-    background-color: #1f2833;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
     overflow: hidden;
     place-content: middle;
     height: 60px;
@@ -25,7 +30,6 @@ body
 .menu-elem {
     border: none;
     outline: none;
-    background-color: #1f2833;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -40,22 +44,282 @@ body
         color: white;
     }
 
-.container{
+
+
+.navigation-text{
+    padding: 20px 16px;
     float: right;
-    width: 50px;
-    height: 50px;
-    padding-right: 5px;
-    padding-top: 5px;
+    font-size: 17px;
+    color: #f2f2f2;
+}
+
+
+.container{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container img{
     border-radius: 50%;
     width: 100%;
     height: auto;
 }
+.profile-container{
+    background-color: #11151b;
+    overflow: hidden;
+    max-width: auto;
+    height: auto;
+    padding-top: 90px;
+    align-content: center;
+    text-align: center;
+}
+.intro-header{
+   color: white;
+   font-size: 48px;
+   font-weight: bold;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0 20px;
+}
 
-.text{
-    padding: 20px 16px;
+
+.aboutme-contain{
+    background-color: #0b0c10;
+    color: #45a29e;
+    overflow: hidden;
+    
+    align-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.aboutme-header{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.aboutme-message{
+    font-style: italic;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.next-page{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 17px;   
+    background-color: #45a29e;  
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* education styles */
+
+.education-contain{
+    background-color: #0b0c10;
+    color: #45a29e;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.education-header{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 90px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.education-school{
+    background-color: #11151b;
+    overflow: hidden;
+    margin-top: 20px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.education-logo{
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    display: block;
+}
+.education-logo img{
+    width: 100%;
+    height: auto;
+}
+.education-details{
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    padding: 0 10px
+}
+.school-name{
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.school-year{
+    margin-bottom: 10px;
+}
+
+.education-logo2{
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    display: block;
+}
+.education-logo2 img{
     float: right;
-    font-size: 17px;
-    color: #f2f2f2;
+    margin-right: 20px;
+    width: 80%;
+    height: auto;
+    
+}
+
+
+/* skills styles */
+
+.skills-contain{
+    background-color: #0b0c10;
+    color: #45a29e;
+    overflow: hidden;
+    padding-bottom: 40px;
+    min-height: 100%;
+}
+
+.skills-header{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.project-samples{
+    background-color: #11151b; 
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+    
+}
+.project-title{
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.project-picture{
+    max-width: 300px;
+    max-height: auto;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding: 0 10px;
+}
+.project-picture img{
+    max-width: 100%;
+    max-height: auto;
+}
+.picture-row{
+    text-align: center;
+    
+}
+.project-details{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+
+/* navigation styles */
+
+.contact-contain{
+    background-color: #0b0c10;
+    color: #45a29e;
+    overflow: hidden;
+    padding-bottom: 40px;
+    max-height: 94.5%;
+}
+
+.contact-header{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+
+.contact-type{
+    background-color: #11151b; 
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.contact-logo{
+    max-width: 80px;
+    height: auto;
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-logo img{
+    width: 100%;
+    height: auto;
+}
+.contact-details{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 10px;
 }
